@@ -1,0 +1,11 @@
+.navbar{
+    --bs-navbar-padding-x: 1;
+    
+}
+
+svg {
+ color: blue;
+ width: 30px;
+ height: 30px;
+}
+
