@@ -7,14 +7,13 @@
 header {
     height: 400px;
     background-image: url(../imagenes/geometric-g20d478bd0_1920.jpg) ;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-top: 85px;
     margin-left: 10px;
     margin-right: 10px;
     
 }
-
-
 
 h1 {
     margin-top: 85px;
@@ -32,8 +31,24 @@ svg {
     background-size: cover;
     position: absolute;
     top: 180px;
-    left: 50px;
+    left: 30px;
     border-radius: 100%;
     border-style: hidden;
+}
+
+.acerca-de {
+    margin: 5PX 9px;
+    border-style:ridge;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.informacion-personal {
+    padding: 10px 40px 10px;
+    
+    
+    
+    
+    
 }
 
