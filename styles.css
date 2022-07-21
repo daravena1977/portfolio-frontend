@@ -15,7 +15,7 @@ header {
     
 }
 
-h1 {
+.nombre {
     margin-top: 85px;
 }
 
@@ -36,7 +36,7 @@ svg {
     border-style: hidden;
 }
 
-.acerca-de {
+.mi-informacion {
     margin: 5PX 9px;
     border-style:ridge;
     border-radius: 10px;
@@ -44,11 +44,19 @@ svg {
 }
 
 .informacion-personal {
+    padding: 10px 40px 10px;    
+    
+}
+
+.nav-informacion-personal {
+    padding-left: 30px;
+}
+
+section {
+    
+    margin: 20px 5px 0 9px;
     padding: 10px 40px 10px;
-    
-    
-    
-    
-    
+    border-style: groove;
+    border-radius: 10px;
 }
 
