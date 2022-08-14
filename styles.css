@@ -3,6 +3,10 @@
     margin: 3em 300px 2em;
 } */
 
+main {
+    margin-top: 100px;
+}
+
 .navbar{
     --bs-navbar-padding-x: 1;
     
@@ -17,9 +21,9 @@ header {
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px; */
     
 }
 
@@ -62,13 +66,13 @@ svg {
     padding-left: 30px;
 }
 
-section {
+/* section {
     
     margin: 20px 5px 0 9px;
     padding: 10px 40px 10px;
     border-style: groove;
     border-radius: 10px;
-}
+} */
 
 .logo-experiencia {
     display: flex;
