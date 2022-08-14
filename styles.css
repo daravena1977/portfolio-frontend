@@ -1,3 +1,8 @@
+/* body {
+    width: 900px;
+    margin: 3em 300px 2em;
+} */
+
 .navbar{
     --bs-navbar-padding-x: 1;
     
@@ -5,11 +10,14 @@
 }
 
 header {
-    height: 400px;
-    background-image: url(../imagenes/geometric-g20d478bd0_1920.jpg) ;
+    height: 200px;
+    background: url(../imagenes/geometric-g20d478bd0_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-top: 85px;
+    margin-top: 100px;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -24,23 +32,25 @@ svg {
  color: blue;
  width: 30px;
  height: 30px;
+ margin-right: 10px;
 }
 
 .imagen-cv {
     
     background-size: cover;
     position: absolute;
-    top: 180px;
-    left: 30px;
+    top: 90px;
+    left: 180px;
+    width: 150px;
+    height: auto;
     border-radius: 100%;
     border-style: hidden;
 }
 
 .mi-informacion {
-    margin: 5PX 9px;
-    border-style:ridge;
-    border-radius: 10px;
-    padding-bottom: 20px;
+    margin-top: 0;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 .informacion-personal {
@@ -58,5 +68,20 @@ section {
     padding: 10px 40px 10px;
     border-style: groove;
     border-radius: 10px;
+}
+
+.logo-experiencia {
+    display: flex;
+    align-items: center;
+    
+      
+    
+}
+
+.logo-img {
+    width: 190px;
+    height: auto;
+    
+    
 }
 
