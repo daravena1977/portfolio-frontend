@@ -1,0 +1,72 @@
+/* body {
+    width: 900px;
+    margin: 3em 300px 2em;
+} */
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar{
+    --bs-navbar-padding-x: 1;
+    
+    
+}
+
+header {
+    height: 200px;
+    background: url(../imagenes/geometric-g20d478bd0_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+}
+
+
+
+
+svg {
+ color: blue;
+ width: 30px;
+ height: 30px;
+ margin-right: 10px;
+}
+
+.mi-informacion {
+    margin-top: 0;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+
+
+
+
+/* section {
+    
+    margin: 20px 5px 0 9px;
+    padding: 10px 40px 10px;
+    border-style: groove;
+    border-radius: 10px;
+} */
+
+.logo-experiencia {
+    display: flex;
+    align-items: center;    
+}
+
+.logo-img {
+    width: 190px;
+    height: auto;    
+}
+
+.mt-n5 {
+    margin-top: -4rem !important;
+  }
+
