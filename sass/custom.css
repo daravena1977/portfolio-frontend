@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.accordion-button {
+  width: 100%;
+  text-align: start;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

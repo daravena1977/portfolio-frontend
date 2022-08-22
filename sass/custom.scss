@@ -8,5 +8,10 @@ $container-max-widths: (
   xxl: 1320px
 );
 
+.accordion-button {
+  width: 100%;
+  text-align: start;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
